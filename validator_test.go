@@ -139,7 +139,7 @@ func TestValidate(t *testing.T) {
 					MinA string `validate:"min:12"`
 					MinE string `validate:"min:"`
 				}{
-					MinA: "ef",
+					MinA: "ab",
 					MinE: "abc",
 				},
 			},
